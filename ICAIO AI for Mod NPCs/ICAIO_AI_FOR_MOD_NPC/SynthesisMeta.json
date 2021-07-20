@@ -3,6 +3,6 @@
   "Visibility": "IncludeButHide",
   "OneLineDescription": "ICAIO AI for Mods",
   "LongDescription": "Applies new ICAIO Go Home and Survival Instincts for mod added npcs",
-  "PreferredAutoVersioning": "Default",
+  "PreferredAutoVersioning": "LatestTag",
   "RequiredMods": []
 }
