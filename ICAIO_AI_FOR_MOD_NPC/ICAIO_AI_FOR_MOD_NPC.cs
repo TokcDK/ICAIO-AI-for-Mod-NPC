@@ -7,7 +7,6 @@ using Mutagen.Bethesda.Skyrim;
 using Mutagen.Bethesda.Synthesis;
 using Mutagen.Bethesda.FormKeys.SkyrimSE;
 using Mutagen.Bethesda.Plugins;
-//using ICAIO_AI_FOR_MOD_NPCs.Utilities;
 using Noggog;
 
 namespace ICAIO_AI_FOR_MOD_NPCs
@@ -24,15 +23,6 @@ namespace ICAIO_AI_FOR_MOD_NPCs
 
         public static void RunPatch(IPatcherState<ISkyrimMod, ISkyrimModGetter> state)
         {
-            //var ICAIO = state.LoadOrder.GetModByFileName("Immersive Citizens - AI Overhaul.esp");
-
-            //if (ICAIO == null) 
-            //{
-            //    System.Console.WriteLine("Required Mods Not Found");
-            //    return;
-            //}
-
-
 
             var WhiterunExtraCitizenPackage =       new FormLink<IPackageGetter>(FormKey.Factory("23B055:Immersive Citizens - AI Overhaul.esp"));
             var RiverwoodExtraCitizenPackage =      new FormLink<IPackageGetter>(FormKey.Factory("ABBB88:Immersive Citizens - AI Overhaul.esp"));
